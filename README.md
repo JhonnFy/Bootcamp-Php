@@ -24,11 +24,19 @@ Edit in settings.json
 
 
 ###### Operadores De Comparación
-# ==	Igual que.
-# ===	Identica que.
-# !=	Diferente que.
-# <>	Diferente que.
-# <	Menor que.
-# >	Mayor que.
-# <=	Menor o igual que.
-# >=	Mayor o igual que.
+
+==	Igual que.
+
+===	Identica que.
+
+!=	Diferente que.
+
+<>	Diferente que.
+
+<	Menor que.
+
+>	Mayor que.
+
+<=	Menor o igual que.
+
+>=	Mayor o igual que.
