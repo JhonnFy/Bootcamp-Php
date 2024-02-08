@@ -9,7 +9,16 @@
 
     
     <?php 
-    echo "Helow World";
+    $nombre = "Jhon Fy";
+    $apellido = "Developer";
+    function DimeEdad() {
+        print "Saludo Desde La Funcion";
+    }
+
+    
+    echo "Hola " . $nombre . ", " . $apellido . ", ";
+    DimeEdad();
+
     ?>
 
 </body>
