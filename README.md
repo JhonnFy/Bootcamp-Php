@@ -1,5 +1,6 @@
 ### Bootcamp-Php
-![php](https://github.com/JhonnFy/Bootcamp-Php/assets/97255802/a1ad8a3b-5f11-4f13-82a4-bec6e6a46f85)
+![php](https://github.com/JhonnFy/Bootcamp-Php/assets/97255802/251601a9-1739-4074-93f9-a6beef2362db)
+
 
 ###### Edit the system environment
 ###### Path
@@ -15,6 +16,6 @@ Edit in settings.json
     "git.autofetch": true,
     "git.confirmSync": false,
     "git.enableSmartCommit": true,
-    ###### "php.validate.executablePath": "C:\\xampp\\php\\php.exe"
+    "php.validate.executablePath": "C:\\xampp\\php\\php.exe"
 }
 
