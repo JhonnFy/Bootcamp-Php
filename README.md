@@ -20,3 +20,23 @@ Edit in settings.json
 }
 
 ![](https://img.shields.io/github/stars/pandao/editor.md.svg) ![](https://img.shields.io/github/forks/pandao/editor.md.svg) ![](https://img.shields.io/github/tag/pandao/editor.md.svg) ![](https://img.shields.io/github/release/pandao/editor.md.svg) ![](https://img.shields.io/github/issues/pandao/editor.md.svg) ![](https://img.shields.io/bower/v/editor.md.svg)
+
+
+
+###### Operadores De Comparación
+
+Igual que ==
+
+Identica que ===
+
+Diferente que !=
+
+Diferente que <>
+
+Mayor que >
+
+Menor que <
+
+Menor o igual que <=
+
+Mayor o igual que >=
