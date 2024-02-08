@@ -33,9 +33,9 @@ Edit in settings.json
 
 <> Diferente que.
 
-< Menor que.
+> Mayor que
 
-> Mayor que.
+< Menor que.
 
 <= Menor o igual que.
 
