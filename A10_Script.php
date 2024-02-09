@@ -9,9 +9,7 @@
     
 <?php
 define("Nombre","Jhon");
-
-print "El Autor Es: " . Nombre;
-
+print "El Autor Es:" . Nombre;
 ?>
 
 </body>
