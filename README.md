@@ -41,7 +41,7 @@ Mayor o igual que >=
 
 
 ###### Operadores matemáticos.
-Suma +
+*    Suma +
 -	Resta
 *	Multiplicación
 /	División.
