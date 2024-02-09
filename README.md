@@ -38,3 +38,13 @@ Menor que <
 Menor o igual que <=
 
 Mayor o igual que >=
+
+
+###### Operadores matemáticos.
++	Suma.
+-	Resta
+*	Multiplicación
+/	División.
+%	Porcentaje.
+++ +=	Incremento.
+-- -=	Decremento
