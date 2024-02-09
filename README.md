@@ -23,22 +23,14 @@ Edit in settings.json
 
 ###### Operadores De Comparación
 
-Igual que ==
-
-Identica que ===
-
-Diferente que !=
-
-Diferente que <>
-
-Mayor que >
-
-Menor que <
-
-Menor o igual que <=
-
-Mayor o igual que >=
-
+*    Igual que ==
+*    Identica que ===
+*    Diferente que !=
+*    Diferente que <>
+*    Mayor que >
+*    Menor que <
+*    Menor o igual que <=
+*    Mayor o igual que >=
 
 ###### Operadores matemáticos.
 *  Suma              +
