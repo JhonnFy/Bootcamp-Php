@@ -41,10 +41,10 @@ Mayor o igual que >=
 
 
 ###### Operadores matemáticos.
-*  Suma             +
-*  Resta            -
+*  Suma              +
+*  Resta             -
 *  Multiplicación    *
 *  División          /
 *  Porcentaje        %
-++ +=	Incremento.
--- -=	Decremento
+*  Incremento        ++ +=
+*  Decremento        -- -=
