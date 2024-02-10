@@ -5,6 +5,7 @@
 ###### Edit the system environment
 ###### Path
 ###### Route C:\xampp\php
+
 ###### VSC Extensions
 - PHP Extension Pack
 - PHP Server
