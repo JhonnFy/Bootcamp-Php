@@ -5,9 +5,10 @@
 ###### Edit the system environment
 ###### Path
 ###### Route C:\xampp\php
+
 ###### VSC Extensions
-PHP Extension Pack
-PHP Server
+- PHP Extension Pack
+- PHP Server
 
 ###### VSC Settings
 Filter to PHP
