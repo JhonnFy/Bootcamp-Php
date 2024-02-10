@@ -31,7 +31,7 @@
 <body>
 <h2 class='text'>Mathematical Operators</h2>
 
-<form action="" class='back' name="form1" method="post">
+<form action="A12_Script2.php" class='back' name="form1" method="post">
   <label for="fname" class='text'>Insert First Number:</label><br>
   <input type="text" id="primer_numero" name="primer_numero" class='textT'><br>
   <label for="lname" class='text'>Insert Second Number:</label><br>
