@@ -35,6 +35,8 @@
         <option>-</option>
         <option>*</option>
         <option>/</option>
+        <option>++</option>
+        <option>--</option>
     </select>
     <input type="submit" value="Send Please" name="btn_send" id="btn_send">
 </form>
@@ -64,6 +66,16 @@
         if(!strcmp("/",$opc)){
             $rstDiv = ($vOne / $vTwo);
             echo "<p class='txt'>Dividir == " . $rstDiv . "</p>";
+        }
+
+        if(!strcmp("++",$opc)){
+            $vOne++;
+            echo "<p class='txt'>Incremento == " . $vOne . "</p>";
+        }
+
+        if(!strcmp("--",$opc)){
+            $vTwo--;
+            echo "<p class='txt'>Decremento == " . $vTwo . "</p>";
         }
 
     }
