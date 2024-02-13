@@ -55,6 +55,8 @@
             echo "<p class='frm'>Number In Range Cero To Fifty";
         }else if($vTwo >="51" && $vTwo <="60"){
             echo "<p class='frm'>Number In Range Cero To Sixty";
+        }else if($vTwo >="61" && $vTwo <="70"){
+            echo "<p class='frm'>Number In Range Cero To Eighty";
         }
 
     }
