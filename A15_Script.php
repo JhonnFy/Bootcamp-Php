@@ -4,60 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Switch</title>
-
-<style>
-.ctg{
-    color:#2980B9;
-    background-color:#FBFCFC;
-}
-
-.ctgd{
-    color:#2980B9;
-    background-color:#ECF0F1;
-}
-
-.title{
-    color:#2980B9;
-    text-align:center;
-}
-
-.btn{
-    background-color:#2980B9;
-}
-</style>
-
 </head>
 <body>
     
-<h1 class="title">Available Categories</h1>
+<form action="" method="POST" name="frm" id="frm">
+    <label for="School" name="lschool" id="lschool">School</label><br>
+    <input type="text" name="school" id="school"><br>
 
+    <label for="">Toys</label><br>
+    <input type="text" name="toys" id="toys">
+        
 
-<table>
-    <tr>
-        <th>School</th>
-        <th class="btn"><input type="submit" value="Category One"></th>
-    </tr>
-    <tr>
-        <th>Toys</th>
-        <th class="btn"><input type="submit" value="Category Two"></th>
-    </tr>
-    <tr>
-        <th>Animals</th>
-        <th class="btn"><input type="submit" value="Category Three"></th>
-    </tr>
-    <tr>
-        <th>Clothes</th>
-        <th class="btn"><input type="submit"></th>
-    </tr>
-</table>
-
-
-
-
-<form action="">
-
+    <input type="submit" name="send" id="send">
 </form>
+
+<?php
+
+if(isset($_POST["send"])){
+    $vSchool = $_POST["school"];
+    $vToys = $_POST["toys"];
+}
+
+        switch(isset($_POST["send"])){            
+            case 1:
+                if($vSchool == "1"){
+                    echo "Hola Desde La Variable Uno";
+                }
+            case 2:
+                if($vToys == "2"){
+                    echo "Hola Desde La Varibale Dos";
+                }
+            case 3:
+            
+            }
+?>
 
 </body>
 </html>
-
