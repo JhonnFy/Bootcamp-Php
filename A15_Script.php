@@ -39,11 +39,11 @@
     </tr>
     <tr>
         <th>Toys</th>
-        <th class="btn"><input type="submit"></th>
+        <th class="btn"><input type="submit" value="Category Two"></th>
     </tr>
     <tr>
         <th>Animals</th>
-        <th class="btn"><input type="submit"></th>
+        <th class="btn"><input type="submit" value="Category Three"></th>
     </tr>
     <tr>
         <th>Clothes</th>
