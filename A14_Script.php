@@ -61,6 +61,8 @@
             echo "<p class='frm'>Number In Range Cero To Ninety";
         }else if($vTwo >="91" && $vTwo <="100"){
             echo "<p class='frm'>Number In Range Cero To Hundred";
+        }else if($vTwo < "0" || $vTwo >"100"){
+            echo "<p class='frm'>Not Found";
         }
     }
 ?>
