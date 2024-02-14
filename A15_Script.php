@@ -105,7 +105,7 @@ if(isset($_POST["send"])){
                     echo "Hola Desde Ocho";
                 }
             case 9:
-                if($vFurniture == "9"){
+                if($Furniture == "9"){
                     echo "Hola Desde Nueve";
                 }
             case 10:
