@@ -13,9 +13,7 @@
         $data ++;
         return $data;
     }
-
     echo increment(5);
-
 ?>
 </body>
 </html>
