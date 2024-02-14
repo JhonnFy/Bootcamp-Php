@@ -71,11 +71,10 @@ if(isset($_POST["send"])){
     $vFlowers = $_POST["flowers"];
 }
 
-        switch(isset($_POST["send"])){            
-            case 1:
-                if($vSchool == "1"){
+        switch(true){            
+            case ($vSchool == "1"):
                     echo "Hola Desde La Variable Uno";
-                }
+                
             case 2:
                 if($vToys == "2"){
                     echo "Hola Desde La Varibale Dos";
