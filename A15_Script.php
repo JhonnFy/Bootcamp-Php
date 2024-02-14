@@ -71,27 +71,47 @@ if(isset($_POST["send"])){
     $vFlowers = $_POST["flowers"];
 }
 
-        switch(true){            
-            case ($vSchool == "1"):
+        switch(isset($_POST["send"])){            
+            case 1:
+                if($vSchool == "1"){
                     echo "Hola Desde La Variable Uno";
-            case ($vToys == "2"):
+                }
+            case 2:
+                if($vToys == "2"){
                     echo "Hola Desde La Varibale Dos";
-            case ($vAnimals == "3"):
+                }
+            case 3:
+                if($vAnimals == "3"){
                     echo "Hola Desde La Variable Tres";
-            case ($vClothes == "4"):
+                }
+            case 4:
+                if($vClothes == "4"){
                     echo "Hola Desde La Variable Cuatro";
-            case ($vFood == "5"):
+                }
+            case 5:
+                if($vFood == "5"){
                     echo "Hola Desde Cinco";
-            case ($vFruit == "6"):
-                    echo "Hola Desde Seis";
-            case ($vTransportation == "7"):
+                }
+            case 6:
+                if($vFruit == "6"){
+                    echo "Hola Desde Seis";  
+                }
+            case 7:
+                if($vTransportation == "7"){
                     echo "Hola Desde Siete";
-            case ($vTrades == "8"):
+                }
+            case 8:
+                if($vTrades == "8"){
                     echo "Hola Desde Ocho";
-            case ($vFurniture == "9"):
+                }
+            case 9:
+                if($vFurniture == "9"){
                     echo "Hola Desde Nueve";
-            case ($vFlowers == "10"):
+                }
+            case 10:
+                if($vFlowers == "10"){
                     echo "Hola Desde Diez";
+                }    
             }
 ?>
 
